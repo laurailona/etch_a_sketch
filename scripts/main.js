@@ -18,3 +18,20 @@ for(let rowPosition = 1; rowPosition <= gridSize; rowPosition++) {
       rowElement.appendChild(newSquare);
   };
 };
+
+//Change color on hover
+var squares = document.querySelectorAll(".col");
+
+squares.forEach((div) => {
+  div.addEventListener("mouseover", (e) => {
+    div.classList.add("change-color");
+  });
+});
+
+//Reset button
+var resetButton = document.getElementById("reset-button");
+resetButton.addEventListener("click", (e) => {
+  squares.forEach((div) => {
+      div.classList.remove("change-color");
+  });
+});
