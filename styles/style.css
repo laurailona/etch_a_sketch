@@ -30,6 +30,7 @@
   border-right: 1px solid black;
   border-left: 0;
   border-bottom: 0;
+  transition: 0.5s;
 }
 
 .col:hover {
