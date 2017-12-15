@@ -26,8 +26,6 @@
   flex-grow: 1;
   flex-basis: auto;
   background-color: #fff;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
   border-left: 0;
   border-bottom: 0;
   transition: 0.5s;
