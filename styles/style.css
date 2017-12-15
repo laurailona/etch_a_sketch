@@ -1,7 +1,14 @@
+h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
 .container {
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 32vw;
+  height: 32vw;
   border: 10px solid black;
   display: flex;
   flex-flow: column nowrap;
